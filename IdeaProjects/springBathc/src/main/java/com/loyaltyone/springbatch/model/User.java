@@ -6,6 +6,15 @@ package com.loyaltyone.springbatch.model;
 public class User {
     private String name;
     private String gender;
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public String getName() {
         return name;
